@@ -14,6 +14,8 @@ npm install
 # serve with hot reload at localhost:9999
 npm run dev
 
+export NODE_OPTIONS=--openssl-legacy-provider
+
 # build for production with minification
 npm run build
 
